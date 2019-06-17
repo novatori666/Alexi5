@@ -30,7 +30,7 @@ bot.on('ready', () => {
     //console.log(bot.guilds);
     //bot.user.setActivity(`Serving ${bot.guilds.size} servers`);
     console.log(`--------------------------------------------`);
-    bot.user.setActivity(`Playing +!help`);
+    bot.user.setActivity(`Playing a!help`);
 });
 
 //Credits for these helpful stats: https://gist.github.com/eslachance/3349734a98d30011bb202f47342601d3
