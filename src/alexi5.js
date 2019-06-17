@@ -83,11 +83,11 @@ bot.on('message', async msg => {
                 break;
             case 'ask':
                 if (!args[1]) {
-                    msg.reply("Please ask a question `+!ask your_question`");
+                    msg.reply("Please ask a question `a!ask your_question`");
                 } else {
                     let replies = [
                         'Yes.',
-                        'Yes.',
+                        'Fuck off!',
                         'No.',
                         'Perhaps you should consider it.',
                         'Probably.',
@@ -113,7 +113,7 @@ bot.on('message', async msg => {
                 break;
             case 'ping':
                 const m = await msg.channel.send("Ping?");
-                m.edit(`Pong! Latency is ${m.createdTimestamp - msg.createdTimestamp}ms. API Latency is ${Math.round(bot.ping)}ms`);
+                m.edit(`UwU! Latency is ${m.createdTimestamp - msg.createdTimestamp}ms. API Latency is ${Math.round(bot.ping)}ms`);
                 break;
             case 'music':
                 if (!args[1]) {
@@ -126,7 +126,7 @@ bot.on('message', async msg => {
                     embed.addField('Stop streaming music & leave channel: ', `${prefix}leave`, true);
                     embed.setColor('#2196f3');
                     embed.setFooter('Note: Make sure that the playlist contains at least one song before playing it. You can also add songs on the go.');
-                    embed.setAuthor('Alexi5 Music Streaming Help');
+                    embed.setAuthor('A Y U Music Streaming Help');
                     msg.channel.send(embed);
                 } else {
                     music(ytkey, servers, titles, msg, args[0], args[1], args[2]);
