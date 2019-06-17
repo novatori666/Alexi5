@@ -90,7 +90,7 @@ module.exports = function music(ytkey, servers, titles, msg, prefix, musicComman
                         })
                     }
                 } catch (e) {
-                    msg.channel.send("Invalid arguments detected. See `+!music`")
+                    msg.channel.send("Invalid arguments detected. See `a!music`")
                 }
             }
 
