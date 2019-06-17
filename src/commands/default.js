@@ -23,15 +23,15 @@ module.exports = function listCommands(prefix, msg) {
         embed.addField(commands[i]);
     }
     */
-    embed.setTitle(':emoji_17: Things I can do :emoji_17: ')
-    embed.setDescription('Huehuehuehue :emoji_18:');
-    embed.addField(':emoji_9:  FUN STUFF', '--------------');
+    embed.setTitle('Here are my commands 💮')
+    embed.setDescription('For more info, contact the Goddess');
+    embed.addField('🎉 FUN STUFF', '--------------');
     embed.addField('Memes', `Request a meme: ${prefix}meme`, true);
     embed.addField('Jokes', `View a joke: ${prefix}joke`, true);
     embed.addField('Amazeme', `Be amazed: ${prefix}amazeme`, true);
     embed.addField('Music', `View music streaming help: ${prefix}music`, true);
     embed.addField('Advice', `Ask me for advice: ${prefix}ask`, true);
-    embed.addField(':emoji_29: USEFUL STUFF', '--------------');
+    embed.addField('🔥 USEFUL STUFF', '--------------');
     embed.addField('The Purge', `Purge messages: ${prefix}purge [num]`, true);
     embed.addField('Ping', `View latency to server: ${prefix}ping`, true);
     embed.addField('My Status', `View my info: ${prefix}info`, true);
